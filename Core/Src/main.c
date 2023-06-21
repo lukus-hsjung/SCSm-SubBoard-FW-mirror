@@ -259,7 +259,7 @@ int main(void)
             break;
           }
         }
-        delay_us(1000);
+        delay_us(5000);
       }
 
       uint32_t now = HAL_GetTick();
